@@ -96,7 +96,10 @@ Designed to defuse emotional escalation
 
 🚀 Real-time multi-source evidence verification
 
-🗂️ Project Architecture
+
+## 🧠 System Architecture
+
+```bash
 echoguard-ai/
 ├── frontend/
 │   ├── app/
@@ -120,47 +123,8 @@ echoguard-ai/
 │
 └── README.md
 
-💼 Business Model
+```
 
-EchoGuard is built as a scalable SaaS and enterprise intelligence platform.
-
-🔹 B2B SaaS Subscriptions
-
-Basic → NGOs, small media units
-
-Pro → Newsrooms, social media teams
-
-Enterprise → Governments, crisis response agencies
-
-🏛️ Government & Public Sector
-
-High-revenue contracts with:
-
-Disaster management authorities
-
-Health ministries
-
-Election commissions
-
-Cybersecurity agencies
-
-🔌 API Licensing
-
-License EchoGuard’s misinformation engine to platforms like:
-
-X (Twitter)
-
-Reddit
-
-Telegram
-
-📰 Media & Newsroom Packages
-
-Real-time misinformation alerts
-
-Trend detection
-
-Manipulation and influence reports
 
 📊 EchoPulse Insights (Analytics Product)
 
@@ -170,45 +134,18 @@ Panic region detection
 
 Misinformation wave forecasting
 
-🏢 Enterprise On-Prem Deployments
-
-Banks
-
-Defense
-
-Large corporates
-
-High-security installations
-
-🚨 Crisis-as-a-Service (CaaS)
-
-Premium, rapid-response activation during:
-
-Pandemics
-
-Elections
-
-Terror events
-
-Natural disasters
 
 📦 Tech Stack
 
-Frontend
+~Frontend
+-HTML
+-CSS
+-JavaScript
 
-HTML
-
-CSS
-
-JavaScript
-
-Backend
-
-Python
-
-FastAPI
-
-AI / ML
+~Backend
+-Python
+-FastAPI
+-AI / ML
 
 Transformers
 
@@ -226,9 +163,7 @@ APIs & Data Sources
 
 News APIs
 
-WHO datasets
 
-Government open datasets
 
 🚀 Vision
 
