@@ -16,6 +16,7 @@ Autonomous agentic decision-making
 The result: emotion-aware, calming, de-escalating responses delivered directly at the misinformation source.
 
 🧠 EchoGuard Architecture
+`
 echoguard-ai/
 ├── frontend/
 │   ├── app/
@@ -38,7 +39,7 @@ echoguard-ai/
 │   └── demo_data.json
 │
 └── README.md
-
+`
 EchoGuard operates through a continuous three-stage loop:
 
 1. SENSE
@@ -62,12 +63,13 @@ This helps EchoGuard understand why misinformation is spreading.
 
 3. ACT
 EchoGuard responds autonomously with psychologically tailored messaging:
-
+`
 Emotion	Response Style
 Fear	Calming, empathetic, reassuring + verified facts
 Anger	Firm, respectful, de-escalating
 Confusion	Clear, step-by-step explanations
 All responses are factual, concise, and crafted to defuse emotional triggers.
+`
 
 🌟 Key Innovations
 🧩 Emotion-driven misinformation intelligence
@@ -110,21 +112,21 @@ APIs: News APIs, WHO, SUPABASE, Government datasets
 
 🚀 Getting Started
 1. Clone Repository
-git clone https://github.com/Akshu121796/EchoGuardAI.git
+`git clone https://github.com/Akshu121796/EchoGuardAI.git
 cd EchoGuardAI
+`
+2. Install Dependencies
+`pip install -r requirements.txt`
 
-3. Install Dependencies
-pip install -r requirements.txt
+3. Run the App
+`python app.py`
 
-5. Run the App
-python app.py
-
-7. Configure API Keys
+4. Configure API Keys
 Create a .env file:
-
+`
 SUPABASE_KEY=YOUR_KEY
 SUPABASE_URL=YOUR_URL
-
+`
 
 🤝 Contributing
 Contributions are welcome! Feel free to submit issues or pull requests.
